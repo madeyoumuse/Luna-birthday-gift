@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="af">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Luna se persoonlike verjaarsdaggeskenk: 'n spesiale lied van Jaun-Mari."
+    />
+    <title>Gelukkige Verjaardag, Luna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Lato:wght@400;700;900&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero section-pad" aria-labelledby="page-title">
+        <div class="ambient ambient-one" aria-hidden="true"></div>
+        <div class="ambient ambient-two" aria-hidden="true"></div>
+        <div class="container hero-inner reveal">
+          <p class="script-line">Met liefde, net vir jou</p>
+          <h1 id="page-title">Gelukkige Verjaardag, Luna</h1>
+          <p class="hero-copy">
+            &rsquo;n Spesiale geskenkie, met baie liefde, net vir jou.
+          </p>
+          <div class="tiny-florals" aria-hidden="true">
+            <span>&#10022;</span>
+            <span class="leaf">&#10087;</span>
+            <span>&#10023;</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="photo-section" aria-label="Foto van Luna en Jaun-Mari">
+        <div class="container">
+          <figure class="photo-card reveal">
+            <!-- Photograph filename: change this path if the photo file changes. -->
+            <img
+              src="Image Luna and Jaun-Mari.jpeg"
+              alt="&rsquo;n Foto van Luna en Jaun-Mari saam"
+            />
+            <figcaption>Luna en Jaun-Mari</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pad" aria-labelledby="message-title">
+        <div class="container">
+          <article class="message-card reveal">
+            <h2 id="message-title">Vir jou, Mamma</h2>
+            <!-- Birthday message: edit the paragraphs below to update the personal note. -->
+            <div class="letter">
+              <p>Liewe Mamma,</p>
+              <p>
+                Vandag vier ons nie net jou verjaarsdag nie, maar ook die
+                wonderlike vrou en mamma wat jy is.
+              </p>
+              <p>
+                Dankie vir jou liefde, jou warmte en vir al die mooi
+                herinneringe wat ons saam deel.
+              </p>
+              <p>
+                Ek wou vir jou iets gee wat net so besonders en uniek is soos jy
+                &mdash; jou eie lied, geskryf uit my hart.
+              </p>
+              <p>
+                Mag dit jou herinner aan hoe ongelooflik lief ek jou het en
+                hoeveel jy vir my beteken.
+              </p>
+              <p>Gelukkige verjaarsdag, mooiste Mamma.</p>
+              <p>Met al my liefde,</p>
+              <p class="signature">Jaun-Mari &#10084;&#65039;</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="song-section section-pad" aria-labelledby="song-title">
+        <div class="container">
+          <div class="decor-divider reveal" aria-hidden="true">
+            <span></span>
+            <strong>&#9834;</strong>
+            <span></span>
+          </div>
+          <div class="song-card reveal">
+            <p class="eyebrow">&rsquo;n Geskenk in klank</p>
+            <h2 id="song-title">Jou eie verjaarsdaglied</h2>
+            <p>
+              Hierdie lied is spesiaal vir jou geskryf. Sit gemaklik, druk speel
+              en geniet elke woord.
+            </p>
+            <button class="primary-button pulse" id="revealSong" type="button">
+              &#127925; Luister na jou lied
+            </button>
+            <div class="audio-wrap" id="audioWrap" hidden>
+              <!-- Song filename: change this path if the audio file changes. -->
+              <audio id="birthdaySong" controls preload="metadata">
+                <source src="To the moon and back (1).mp3" type="audio/mpeg" />
+                Jou blaaier kan nie hierdie klankl&ecirc;er speel nie.
+              </audio>
+              <a
+                class="secondary-button"
+                href="To the moon and back (1).mp3"
+                download
+              >
+                &#11015;&#65039; Laai jou lied af
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="celebration" id="celebration" aria-hidden="true"></div>
+      </section>
+
+      <section class="testimonial section-pad" aria-labelledby="testimonial-title">
+        <div class="container">
+          <div class="brand-kiss reveal" aria-hidden="true">&#10022; &#9834; &#10022;</div>
+          <div class="testimonial-card reveal">
+            <h2 id="testimonial-title">Het hierdie geskenk jou hart geraak?</h2>
+            <p>
+              Ons sal baie graag wil hoor hoe die lied jou laat voel het. Jou
+              woorde beteken ongelooflik baie en help ander om ook iemand
+              besonders met hul eie lied te verras.
+            </p>
+            <!-- Facebook review link: replace FACEBOOK_REVIEW_LINK with the final Made You Muse review URL. -->
+            <a
+              class="testimonial-button"
+              href="FACEBOOK_REVIEW_LINK"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span aria-hidden="true">&#9835;</span>
+              &#128149; Deel jou ervaring
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="creator" aria-labelledby="creator-title">
+      <div class="container">
+        <div class="creator-card reveal">
+          <p id="creator-title" class="creator-quote">
+            Elke mens het &rsquo;n storie wat verdien om in &rsquo;n lied vasgevang te word.
+          </p>
+          <p class="creator-credit">Met liefde gemaak deur Made You Muse</p>
+          <span class="gold-sparkle" aria-hidden="true">&#10022;</span>
+          <!-- Made You Muse logo: change this path if the logo file changes. -->
+          <img
+            src="Made You  Muse Logo.png"
+            alt="Made You Muse logo"
+            class="muse-logo"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
